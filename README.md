@@ -1,4 +1,4 @@
-# Mongo-express-react-node-ecommerce-shopping-store
+# Mongo-Express-React-Node-Ecommerce-Shopping-Store
 
 # Technology Stack:
 Node js
