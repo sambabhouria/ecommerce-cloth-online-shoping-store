@@ -14,6 +14,14 @@ Usage
  ![screenshot](1.png)
  ![screenshot](2.png)
 
+
+# Seed Database
+You can use the following commands to seed the database with some sample users and products as well as destroy all data
+## Import data
+npm run data:import
+## Destroy data
+npm run data:destroy
+
 # Install Dependencies
 // Install dependencies for server
 npm install
