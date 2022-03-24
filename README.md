@@ -1,6 +1,32 @@
 # Mongo-Express-React-Node-Ecommerce-Shopping-Store
 
+# clothshopp
+
+Online Clothing Store using the MERN stack
+
+
+# Screen Shot
+ ![screenshot](1.png)
+ ![screenshot](2.png)
+
+# Features:
+
+Product reviews and ratings
+Product pagination
+Product search feature
+User profile with orders
+Full featured shopping cart
+Admin product management
+Admin user management
+Admin Order details page
+Mark orders as delivered option
+Checkout process (shipping, payment method, etc)
+PayPal / credit card integration
+Database seeder (products & users)
 # Technology Stack:
+React Bootstrap
+Redux
+React Paypal Button V2
 Node js
 Express Js
 MongoDB
@@ -9,12 +35,11 @@ React
 Usage
 "/.env" update the values/settings to your own
 
-
-# Screen Shot
- ![screenshot](1.png)
- ![screenshot](2.png)
-
-
+    NODE_ENV = development
+    PORT = 5000
+    MONGO_URI = your mongodb uri
+    JWT_SECRET = 'abc123'
+    PAYPAL_CLIENT_ID = your paypal client id
 # Seed Database
 You can use the following commands to seed the database with some sample users and products as well as destroy all data
 ## Import data
