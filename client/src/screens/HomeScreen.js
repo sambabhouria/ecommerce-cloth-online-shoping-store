@@ -19,6 +19,7 @@ const HomeScreen = () => {
   const productList = useSelector((state) => state.productList);
 
   const { products, loading, error, page, pages } = productList;
+  console.log("🚀 ~ file: HomeScreen.js ~ line 22 ~ HomeScreen ~ products", products)
 
   useEffect(() => {
     dispatch(listProduct(keyword, pageNumber));

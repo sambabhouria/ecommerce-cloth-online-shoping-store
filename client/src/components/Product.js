@@ -4,6 +4,7 @@ import { Card } from "react-bootstrap";
 import Rating from "./Rating";
 
 const Product = ({ product }) => {
+console.log("🚀 ~ file: Product.js ~ line 7 ~ Product ~ product", product.image)
   return (
     <Card className="my-4 p-3 rounded">
       <Link to={`/product/${product._id}`}>
