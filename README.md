@@ -44,7 +44,7 @@ Usage
     NODE_ENV = development
     PORT = 5000
     MONGO_URI = your mongodb uri
-    JWT_SECRET = 'abc123'
+    JWT_SECRET_KEY = 'abc123'
     PAYPAL_CLIENT_ID = your paypal client id
 # Seed Database
 You can use the following commands to seed the database with some sample users and products as well as destroy all data

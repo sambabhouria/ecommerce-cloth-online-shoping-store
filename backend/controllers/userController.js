@@ -117,6 +117,7 @@ export const updateUserProfile = asyncHandler(async (req, res) => {
 // @Route GET
 export const getUsers = asyncHandler(async (req, res) => {
   const users = await User.find({});
+  console.log("users", users)
   res.status(201).json({ success: true, users });
 });
 
